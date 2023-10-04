@@ -7,14 +7,14 @@ main {
 aside{
        width: 20rem;
        margin:1rem;
-       border:1px solid rgba(0, 0, 0, o.2);
+       border:1px solid rgba(0, 0, 0, 0.2);
        padding: 1rem;
        background-color: #eee;
        color: #333;
        text-align: center;
 }
 aside img {
-       width: 2oopx;
+       width: 200px;
        height: auto
 }
 main image {
