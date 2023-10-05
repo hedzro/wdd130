@@ -1,1 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Young+Serif&display=swap');
+:root {
+       --primary-color: #3E78B2;
+       --secondary-color: #54DEFD;
+       --accent1-color: #ECE8EF;
+       --accent2-color: #51355A;
+
+       --heading-font: 'young serif', serif;
+       --paragraph-font: roboto, serif;
+       --nav-background-color: #000000;
+       --nav-link-color: #3E78B2;
+       --nav-hover-link-color: white;
+       --nav-hover-background-color: #54DEFD;
+
+}
+
+body {
+       font: var(--paragraph-font);
+       max-width: 960px;
+       padding: 20px;
+
+}
+
+header {
+         padding: 20px;
+         background-color: var(--primary-color);
+}
+
+p {
+       padding: 25px;
+}
+
+nav {
+       background-color: var(--nav-background-color);
+       font-size: 1.2rem;
+       display: flex;
+}
+
+nav a {
+       display: block;
+       color: var(--nav-link-color);
+       text-decoration: none;
+       padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+       color: var(--nav-link-color);
+}
+
+nav a:hover {
+       color: var(--nav-hover-link-color);
+       background-color: var(--nav-hover-background-color);
+}

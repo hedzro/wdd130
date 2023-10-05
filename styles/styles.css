@@ -3,7 +3,6 @@ p{
 }
 main {
        max-width: 840px;
-       text-align: center;
        background-color: #eee;
        color: #333;
 }
@@ -23,7 +22,6 @@ aside img {
 main image {
        width: 150px;
        height: auto;
-       text-align: left;
 }
 footer {
        margin-top: 1em;
