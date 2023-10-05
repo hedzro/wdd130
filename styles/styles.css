@@ -3,6 +3,9 @@ p{
 }
 main {
        max-width: 840px;
+       text-align: center;
+       background-color: #eee;
+       color: #333;
 }
 aside{
        width: 20rem;
