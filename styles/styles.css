@@ -23,6 +23,7 @@ aside img {
 main image {
        width: 150px;
        height: auto;
+       text-align: left;
 }
 footer {
        margin-top: 1em;
