@@ -27,7 +27,7 @@ aside img {
 }
 
 aside h2 {
-       position: absolute;
+       position: relative;
        top: 40px;
        left: 130px;
 }
@@ -35,7 +35,7 @@ aside h2 {
 main image {
        width: 150px;
        height: auto;
-       float: right
+       float: right;
 }
 footer {
        margin-top: 1em;
