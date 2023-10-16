@@ -21,11 +21,11 @@ h1, h2 {
 
 p {
        font-family: var(--paragraph-font);
-       color: var(--nav-hover-background-color);
+       color: var(--nav-background-color);
 }
 
-* {
-       max-width: 900px;
+body {
+       width: 900px;
 }
 
 sociallinks {
@@ -33,31 +33,44 @@ sociallinks {
        color: var(--accent2-color);
        background-color: bisque;
 }
-hero img {
-       display: block;
+.hero img {
        width: 100%;
-       height:auto;
+       height: auto;
 }
+.hero {
+       position: relative;
+}
+
+
 h1 {
        position: absolute;
+       margin-top: 1px;
+       top: 20px;
+       left: 0;
+       right: 0;
+       text-align: center;
+
 }
-article p {
+
+article {
        position: absolute;
-       opacity: 0.5;
-       display: block;
        background-color: var(--nav-hover-background-color);
-       overflow: auto;
+       top: 350px;
+       margin: 20px;
+       opacity: 0.6;
+       padding: 20px;
 }
-article img {
-                 float: right;
-                 margin-left: 20px;
+.hero article img {
+              float: right;
+              margin-left: 15px;
+              width: 150px;
 }
 footer p {
        color: black;
 }
 
 section-text {
-       margin: 2px;
+       margin: 1px;
 }
 section-image {
        margin: 1px;
