@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Young+Serif&display=swap');
+:root {
+       --primary-color: #3E78B2;
+       --secondary-color: #54DEFD;
+       --accent1-color: #ECE8EF;
+       --accent2-color: #51355A;
+
+       --heading-font: 'young serif', serif;
+       --paragraph-font: roboto, serif;
+       --nav-background-color: #000000;
+       --nav-link-color: #3E78B2;
+       --nav-hover-link-color: white;
+       --nav-hover-background-color: #54fd5c;
+
+}
+
+h1, h2 {
+       font-family: var(--heading-font);
+       color: var(--primary-color);
+}
+
+p {
+       font-family: var(--paragraph-font);
+       color: var(--nav-hover-background-color);
+}
+
+* {
+       max-width: 900px;
+}
+
+sociallinks {
+       text-decoration: none;
+       color: var(--accent2-color);
+       background-color: bisque;
+}
+hero img {
+       display: block;
+       width: 100%;
+       height:auto;
+}
+h1 {
+       position: absolute;
+}
+article p {
+       position: absolute;
+       opacity: 0.5;
+       display: block;
+       background-color: var(--nav-hover-background-color);
+       overflow: auto;
+}
+article img {
+                 float: right;
+                 margin-left: 20px;
+}
+footer p {
+       color: black;
+}
+
+section-text {
+       margin: 2px;
+}
+section-image {
+       margin: 1px;
+}
